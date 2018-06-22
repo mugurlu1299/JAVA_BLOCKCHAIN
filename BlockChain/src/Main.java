@@ -33,7 +33,7 @@ public class Main {
         System.out.println("üçüncü block sonrasi kontrol=" + ucuncuBlockSonrasiKontrol);
 
         //block zincirini bozup tekrar kontrol edelim.
-        System.out.println("DENEME AMAÇLI BLOCK CHAIN BOZUYORUZ.HATA MESAJI BEKLIYORUZ");
+        System.out.println("DENEME AMAÇLI BLOCK CHAIN BOZUYORUZ.HATA MESAJI BEKLIYORUZ.");
         block2.hash = "sdfsafsdf";
         Boolean sonuc = isCheckChainValid();
         System.out.println("block kontrol:" + sonuc);//false bekliyoruz.çünkü blockChaini bozduk.
